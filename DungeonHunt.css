@@ -1,0 +1,134 @@
+
+/* Background Color */
+body { background-color: #43464b; margin-left: 150px; margin-right: 150px; color: white; }
+/* Header Text Color */
+h1 { color: white; }
+/* Paragraph Text Color */
+p { color: white; }
+
+/* Navigation Bar. */
+ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; 
+position: -webkit-sticky; /* Safari */ position: sticky; top: 0; width: 100%; }
+li { float: left; border-right: 1px solid #bbb; border-left: 1px solid #bbb; }
+li a { display: block; color: white; text-align: center; padding: 15px 20px; text-decoration: none; }
+
+/* Change the link color on hover */
+li a:hover { background-color: #bababa; }
+.active { background-color: #4CAF50; }
+
+/* .column class splits page into two equal columns */
+* { box-sizing: border-box; }
+.column { border-style: solid; border-width: 3px; border-color: #4f4f4f; float: left; width: 50%; padding: 10px; height: 1000px; }
+.row:after { content: ""; display: table; clear: both; }
+
+/* Dungeon Window */
+.dungeon {
+	background-color: grey;
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 399px;
+	height: 350px;
+	padding: 20px;
+	border: solid 3px white;
+}
+/* Dungeon Inventory */
+.dungeon-inventory {
+	background-color: darkblue;
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 399px;
+	height: 665px;
+	padding: 20px;
+	border: solid 3px white;
+}
+
+/* Weapon Row */
+.weapon-row {
+	margin-top: 5px;
+	margin-left: 50px;
+}
+.weapon-row:after {
+	content: "";
+	display: table;
+	clear: both;	
+}
+.weapon-bronze {
+	border: solid 2px #b08d57;
+	float: left;
+	width: 99px;
+	height: 100px;
+	padding: 2px;
+	margin-right: 1px;
+}
+.weapon-silver {
+	border: solid 2px #C0C0C0;
+	float: left;
+	width: 99px;
+	height: 100px;
+	padding: 2px;
+	margin-right: 1px;
+}
+.weapon-gold {
+	border: solid 2px #FFD700;
+	float: left;
+	width: 99px;
+	height: 100px;
+	padding: 2px;
+	margin-right: 1px;
+}
+.weapon-platinum {
+	border: solid 2px #e5e4e2;
+	float: left;
+	width: 99px;
+	height: 100px;
+	padding: 2px;	
+}
+
+/* Reward Window */
+.reward {
+	background-color: grey;
+	border: solid 2px white;
+	margin-top: 5px;
+	margin-left: 50px;
+	width: 399px;
+	height: 100px;
+	padding: 20px;
+}
+/* Reward Inventory */
+.reward-inventory {
+	background-color: darkred;
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 399px;
+	height: 665px;
+	padding: 20px;
+	border: solid 3px white;
+}
+
+/* Stats Window */
+.stats {
+	background-color: grey;
+	border: solid 2px white;
+	margin-top: 5px;
+	margin-left: 50px;
+	width: 399px;
+	height: 100px;
+	padding: 20px;
+}
+
+/* Log Window */
+.log {
+	background-color: green;
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 399px;
+	height: 665px;
+	padding: 20px;
+	border: solid 3px white;
+}
+
+
+
+
+
+

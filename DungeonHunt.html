@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<!-- meta data -->
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="DungeonHunt.css">
+	<script type="text/javascript" src="/DungeonHunt.js"></script>
+	<script type="text/javascript" src="/general.js"></script>
+	<title>DungeonHunt</title>
+</head>
+
+<!-- Header for the page -->
+<body>
+	<h1 class="header">DungeonHunt (temp title) various info will go here.</h1>
+</body>
+
+<!-- navigation bar -->
+<nav>
+	<ul>
+		<li><a href="#home">Dungeon</a><li>
+		<li><a href="#inventory">Inventory</a></li>
+		<li><a href="#store">Store</a></li>
+		<li style="float:right"><a href="#settings">Settings</a></li>
+		<li style="float:right"><a href="#help">Help</a></li>
+		<li style="float:right"><a href="#about">About</a></li>
+	</ul>
+</nav>
+
+<!-- Where everthing else goes -->
+<body>
+	<div class="row">
+		<!-- Left Column -->
+		<div class="column">
+			
+			<!-- Dungeon Window -->
+			<div onclick="dungeonWindowClick()" 
+			style="cursor: pointer;" 
+			class="dungeon">
+				<p>Dungeon Window</p>
+			</div>
+			
+			<!-- Weapon Row -->
+			<div class="weapon-row">
+			
+				<!-- Bronze Weapon -->
+				<div class="weapon-bronze">
+					<p>bronze weapon</p>
+				</div>
+				
+				<!-- Silver Weapon -->
+				<div class="weapon-silver">
+					<p>silver weapon</p>
+				</div>
+				
+				<!-- Gold Weapon -->
+				<div class="weapon-gold">
+					<p>gold weapon</p>
+				</div>
+				
+				<!-- Platinum Weapon -->
+				<div class="weapon-platinum">
+					<p>platinum weapon</p>
+				</div>
+			
+			</div> <!-- End Weapon Row -->
+			
+			<!-- Reward (bait) Window-->
+			<div onclick="rewardWindowClick()" 
+			style="cursor: pointer;"
+			class="reward">
+				<p>Rewards Window</p>
+			</div>
+			
+			<!-- Stats Window-->
+			<div class="stats">
+				<p>Stats Window</p>
+			</div>
+			
+		</div> <!-- End Left Column -->
+		
+		<!-- Right Column -->
+		<div class="column">
+		
+			<!-- Future Log -->
+			<div id="rightColumn" class="log">
+				<p id="logText">Log Window</p>
+			</div>
+			
+
+		</div>
+	</div>
+	
+</body>
+
+</html>
